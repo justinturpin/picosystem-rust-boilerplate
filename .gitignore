@@ -1,0 +1,7 @@
+/target
+/picosystem
+/CMakeFiles
+CMakeCache.txt
+/build
+*.uf2
+*.16bpp

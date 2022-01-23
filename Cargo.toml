@@ -1,0 +1,20 @@
+[package]
+name = "picosystem-boilerplate-rs"
+version = "0.1.0"
+edition = "2021"
+links = "picosystem"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+lto = true
+
+[dependencies]
+cxx = { version = "1.0", default-features = false, features = ["alloc"] }
+
+[build-dependencies]
+cxx-build = "1.0"
+cmake = "0.1"
+
+[lib]
+crate-type = ["staticlib"]
