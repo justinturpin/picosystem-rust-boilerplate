@@ -63,3 +63,4 @@ example of how everything can be put together.
 
 - build.rs is a mess that will easily break if the Pico SDK's pathing changed.
 - sound! I haven't done any sound bindings.
+- this project relies on a LOT of private functions of the Picosystem SDK.
